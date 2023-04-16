@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HBD na! Smile</title>
+
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <audio id="HBDaudio">
+            <source src = "Happy Birthday (Piano Version).mp3">
+        </audio>
+
+        <h1>สุขสันต์วันเกิดนะสไมล์!</h1>
+        <div  align = "center"><img id = "CakeBday" src = "CakeBday_idle.gif" style = "width:500px;height:500px;"></div>
+        <p> เราเอาเค้กมาให้อะ อธิฐานแล้วเป่าเทียนเลยนะ</p>
+        <label for ="wishes"> พิมพ์คำอธิฐานลงในกล่องสี่เหลี่ยมนี้เลย หรือไม่อยากพิมพ์ก็แล้วแต่นะ</label>
+        <input type="text" id = "wishes" name="wishes">
+        <input type = "button" onclick = BOnClick() value = "เป่า!"><br>
+        <input type = "button" onclick = playAudio() value = "อยากฟังเพลงBackground">
+        <input type = "button" onclick = pauseAudio() value = "ไม่อยากฟังเพลงละ">
+        <input type = "button" onclick = alert("https:\/\/www.youtube.com\/watch?v=vhVBWw6rId0") value= "อยากไปฟังเอง">
+        <script src="app.js"></script>
+    </body>
+</html>
